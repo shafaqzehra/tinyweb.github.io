@@ -1,0 +1,87 @@
+/*Add fonts*/
+@import url('Fonts.css')
+/*General Styling*/
+:root{ 
+    --theme-color: #ffffff;
+    --text-color: #010101;
+    --text-color-light: #979b9f;
+    --tect-color-fea: #d3d3d3;
+}
+
+body{
+    margin: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Wrapper{
+       max-width: 960px;
+       margin: auto;
+}
+/* Header */
+.heading{
+font-size: 32px;
+line-height: 32px;
+color: #010101;
+font-family: "PT Sans Bold";
+font-weight: 700;
+text-align: center;
+}
+.para{
+font-size: 20px;
+line-height: 24px;
+color: #313841;
+font-family: "PT Sans";
+font-weight: 400;
+text-align: center;
+margin: 15px;
+}
+/* Hero Section */
+.Herosection{
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+    margin-left: 120px; 
+    background:  #ffffff;
+}
+
+.Sub-heading{
+    font-size: 22px;
+    line-height: 24px;
+    color: #010101;
+    font-family: "PT Sans";
+    font-weight: 400;
+    }
+.content{
+    width: 221px;
+    height: 91px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #898989;
+    font-family: "PT Sans";
+    font-weight: 400;
+    }
+
+img{
+     float: left;
+     font-size: 45px;
+     line-height: 45px;
+}
+
+.service-single-item{
+    margin-left:65px;
+}
+.boxes{
+    margin: auto;
+    overflow: hidden;
+}
+.box{
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+}
+.Sub-heading .content {
+    margin-left:65px;
+}

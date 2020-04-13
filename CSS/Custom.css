@@ -1,0 +1,107 @@
+/*Add fonts*/
+@import url('Fonts.css')
+/*General Styling*/
+:root{
+    --theme-color: #fcdb00;
+    --text-color: #010101;
+    --text-color-light: #555555;
+}
+body{
+    margin: 0;
+}
+.Wrapper{
+       max-width: 960px;
+       margin: auto;
+}
+h2{
+    font-size: 32px;
+    font-family: 'PT Sans Bold';
+    line-height: 18px;
+}
+h4{
+    font-size: 20px;
+    font-family: 'PT Sans';
+    line-height: 24px;
+}
+p{
+    font-size: 16px;
+    font-family: 'PT Sans';
+    line-height:24px;
+    color: #555555;
+}
+/* Header */
+
+header {
+    padding: 60px 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+header .Wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation ul li {
+    display: inline-block;
+    margin-right: 75px;
+}
+
+.navigation ul li:last-child {
+    margin: 0;
+}
+
+.navigation ul li a {
+    font-size: 22px;
+    text-decoration: none;
+    color: var(--text-color);
+    font-family: 'PT Sans Bold';
+}
+
+/* Hero Section */
+.HeroSection {
+    background: #fcdb00;
+    padding: 164px 20px 107px;
+}
+
+.twocolrow {
+    display: flex;
+    align-items: center;
+}
+
+.twocol {
+    width: 50%;
+}
+.HeroSection-img {
+    text-align: center;
+}
+
+.HeroSection-Content {
+    padding-right: calc(100% / 12);
+}
+
+.HeroSection-Content h2 {
+    margin: 0 0 24px;
+}
+
+.HeroSection-Content h4 {
+    margin: 0px 0 26px;
+    padding-right: calc(960px / 12);
+    font-weight: 400;
+}
+
+.HeroSection-Content p {
+    margin: 0 0 42px;
+}
+.section-img-wrapper img {
+    margin-right: 37px;
+}
